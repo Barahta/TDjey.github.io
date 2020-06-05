@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+
+
+
+header{
+    background-image: url(images/header_2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 600px;
+}
+body{
+    scroll-behavior: auto;
+    margin: 0;
+    background-color: aliceblue;
+}
+.white_fon_2{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), white);
+    position: absolute;
+    top: 598px;
+}
+.come_back_pls{
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    background-image: url(images/upper.png);
+    background-size: cover;
+}
+.article{
+    position: absolute;
+    width: 70%;
+    top: 100px;
+    left: 200px;
+}
+.article_{
+    position: absolute;
+    margin: 0;
+    top: -42px;
+    left: -201px;
+    width: 100%;
+    height: 170px;
+}
+.white_fon{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to top, white, rgba(0, 0, 0, 0));
+}
+.blob{
+    position: absolute;
+    top: 0;
+    box-sizing: border-box;
+    padding: 100px;
+    width: 900px;
+    height: 300px;
+    border-radius: 39% 61% 70% 30% / 45% 54% 46% 55%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,71,34,1) 27%, rgba(40,121,9,1) 71%, rgba(0,212,255,0) 100%);
+}
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.f{
+    justify-content: space-around;
+}
+.container s{
+    justify-content: space-between;
+}
+.circle{
+    transform: rotate(-30deg);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 13px solid #FE0203;
+    box-sizing: border-box;
+    transition-duration: 0.2s;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+.rect{
+    width: 20px;
+    height: 50px;
+    background-color: #FE0203;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    bottom: -55px;
+    transition: all 0.3s;
+    transform: rotate(-1deg);
+    z-index: 3;
+}
+main{
+    width: 80%;
+}
+.main_circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    transition-duration: 0.2s;
+    box-sizing: border-box;
+    border: 2px solid #FE0203;
+    z-index: 2;
+}
+.main_circle:hover .circle{
+    transform: rotate(45deg);
+    border-radius: 50px 50px 20px 50px;
+}
+.main_circle:hover{
+    border: 50px solid #FE0203;
+}
+.main_circle:hover .rect{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: white;
+    top: 30px;
+    left: 30px;
+}
+.lupa{
+    width: 100px;
+    height: 100px;
+    z-index: 0;
+}
+a .lupa{
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+.return{
+    color: white;
+    display: block;
+    margin: auto;
+    width: 100px;
+    text-decoration: none;
+}
+.white_paint{
+    width: 100%;
+    height: 10%;
+    background-color: aliceblue;
+    position: absolute;
+    z-index: 1;
+}
+.white_paint2{
+    width: 100%;
+    height: 10%;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.clip{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+}
+.astroboy{
+    padding: 20px;
+    width: 100%;
+    background-image: url(images/Astroboy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -31px -60px;
+}
+.history{
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    padding-top: 0;
+    width: 68%;
+}
+.astroo{
+    width: 85%;
+}
+.histori, .astro{
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 17px;
+}
+video{
+    width: 99%;
+    opacity: 0.4;
+    z-index: 0;
+}
+.flag{
+    text-decoration: none;
+    display: block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transition: background-color 500ms linear, box-shadow 500ms linear;
+}
+.flag_{
+    font-size: 30px;
+    color:darkgoldenrod;
+    margin-left: 15px;
+    color: #FE0203;
+    margin-top: 30px;
+    font-family: 'Monoton';
+}
+.flag:hover{
+    background-color: gold;
+    box-shadow: 0 0 30px #9F031F;
+}
+.geo{
+    background-color: black;
+}
+.glass{
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-image: url(images/animat_1/1.png);
+    background-size: contain;
+    transition: all 400ms linear;
+}    
+.erro{
+    color: white;
+    text-align: center;
+}
+.error{
+    width: 700px;
+    position: relative;
+    height: 300px;
+    margin: auto;
+}
+.glass:hover{
+    animation: glass_shine 1s infinite ease-in-out;
+}
+nav{
+    box-sizing: border-box;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+    position: absolute;
+    top: 400px;
+    background-color: white;
+    width: 100%;
+    height: 200px;
+}
+.sidebar{
+    width: 20%;
+    border-right: 3px solid red;
+    margin: 10px;
+}
+.aside{
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    background-size: cover;
+}
+.ff{
+    background-image: url(images/aside_1.jpg);
+    background-position: -96px 0;
+}
+.ff, .ss{
+    margin-bottom: 10px;
+}
+.ss{
+    background-image: url(images/aside_2.jpg);
+    background-position: -108px 0;
+}
+.tt{
+    background-image: url(images/aside_3.jpg);
+    background-position: -100px 0;
+}
+@keyframes glass_shine{
+    0%{
+        background-image: url(images/animat_1/1.png);
+    }
+    9%{
+        background-image: url(images/animat_1/2.png);
+    }
+    18%{
+        background-image: url(images/animat_1/3.png);
+    }
+    27%{
+        background-image: url(images/animat_1/4.png);
+    }
+    36%{
+        background-image: url(images/animat_1/5.png);
+    }
+    45%{
+        background-image: url(images/animat_1/6.png)
+    }
+    54%{
+        background-image: url(images/animat_1/7.png)
+    }
+    63%{
+        background-image: url(images/animat_1/8.png)
+    }
+    72%{
+        background-image: url(images/animat_1/9.png)
+    }
+    81%{
+        background-image: url(images/animat_1/10.png)
+    }
+    90%{
+        background-image: url(images/animat_1/11.png);
+    }
+    100%{
+        background-image: url(images/animat_1/1.png);
+    }
+}
+.err_2{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    top: 80px;
+    left: 288px;
+}
+.sec{
+    color: #EB0603;
+}
+.three{
+    color: #5B130E;
+}
+.first{
+    color: #F4F8F6;
+}
+.spec_2{
+    animation: flash_red 6s infinite;
+}
+.spec{
+    animation: flash 6s infinite;
+}
+.err{
+    position: absolute;
+    left: 229px;    
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+}
+@keyframes flash{
+    0%{
+        color: #F4F8F6;
+    }
+    52%{
+        color: #F4F8F6;
+    }
+    53%{
+        color: #757773;
+    }
+    54%{
+        color: #F4F8F6;
+    }
+    72%{
+        color: #F4F8F6;
+    }
+    73%{
+        color: #757773;
+    }
+    74%{
+        color: #F4F8F6;
+    }
+    75%{
+        color: #757773;
+    }
+    76%{
+        color: #F4F8F6;
+    }
+    100%{
+        color: #F4F8F6;
+    }
+}
+.search{
+    text-align: center;
+    font-family: 'Monoton';
+    font-size: 60px;
+}
+@keyframes flash_red{
+    0%{
+        color: #5B130E;
+    }
+    49%{
+        color: #5B130E;
+    }
+    50%{
+        color: #EB0603;
+    }
+    51%{
+        color: #5B130E;
+    }
+    58%{
+        color: #5B130E;
+    }
+    59%{
+        color: #EB0603;
+    }
+    100%{
+        color: #EB0603;
+    }
+}
+@media (max-width: 500px) and (min-width: 350px){
+    .glass{
+        height: 100px;
+        background-repeat: no-repeat;
+    }
+    .flag{
+        width: 60px;
+        height: 60px;
+    }
+    .flag_{
+        font-size: 15px;
+        margin: 20px 15px;
+    }
+    .lupa{
+        position: absolute;
+        top: 0;
+        left: -300px;
+    }
+    .sidebar{
+        width: 0;
+        border: none;
+    }
+    .hero_face{
+        position: absolute;
+        left: 100px;
+        bottom: 20px;
+    }
+    .histori{
+        font-size: 10px;
+    }
+    .history{
+        margin-bottom: 100px;
+    }
+    .astroboy{
+        position: absolute;
+        bottom: 300px;
+    }
+    .cont{
+        bottom: 0px;
+    }
+    .article_{
+        width: 200px;
+        height: 100px;
+    }
+    header{
+        height: 300px;
+    }
+    nav{
+        top: 100px;
+    }
+}
+.hero{
+    padding-top: 150px;
+}
+.hero_face{
+    width: 50%;
+    margin: auto;
+}
+.cont{
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+}
